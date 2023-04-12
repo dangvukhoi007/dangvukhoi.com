@@ -1,0 +1,50 @@
+baseURL: /
+title: Dang Vu Khoi
+theme: hugo-coder
+languageCode: en
+defaultContentLanguage: en
+paginate: 20
+enableEmoji: yes
+markup:
+  highlight:
+    style: github-dark
+params:
+  author: Dang Vu Khoi
+  avatarURL: images/profile.jpg
+  colorScheme: auto
+  commit: https://github.com/luizdepra/hugo-coder/tree/
+  customCSS: []
+  customJS: []
+  customRemoteJS: []
+  customSCSS: []
+  dateFormat: January 2, 2006
+  description: Dang Vu Khoi's personal website
+  hideColorSchemeToggle: no
+  info:
+    - Data Analysis Learner
+    - Tokusatsu Lover
+  keywords: blog,developer,personal
+  maxSeeAlsoItems: 5
+  rtl: no
+  since: 2023
+  social:
+    - icon: fa fa-2x fa-github
+      name: Github
+      url: https://github.com/johndoe/
+      weight: 1
+taxonomies:
+  author: authors
+  category: categories
+  series: series
+  tag: tags
+languages:
+  en:
+    languageName: ':uk:'
+    menu:
+      main:
+        - name: About
+          url: about/
+          weight: 2
+        - name: Blog
+          url: posts/
+          weight: 1
